@@ -196,18 +196,6 @@
       margin: 0;
     }
 
-    .type {
-      display: inline-flex;
-      width: fit-content;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.22);
-      padding: 6px 10px;
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-weight: 900;
-    }
-
     .problem {
       display: block;
       font-size: 1rem;
@@ -711,7 +699,6 @@
           <span class="card-inner">
             <span class="face front">
               <span class="unit">${card.unit} &bull; ${card.topic}</span>
-              <span class="type">${card.type}</span>
               <span class="card-title">${card.type === 'Challenge' ? 'Challenge ' : 'Problem '}${card.number}</span>
               <span class="problem">${card.problem}</span>
               <span class="hint">Tap to reveal answer</span>
